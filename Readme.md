@@ -3,7 +3,7 @@
 Simple cross-platform command line parser for .NET applications.
 
 ```CS
-using CliParser
+using CliParser;
 
 class SampleOptions
 {
@@ -16,9 +16,9 @@ class SampleOptions
 
 class Program 
 {
-    static void Main(string[] args) 
+    static void Main(string[] args)
 	{
-	    var options = CliParser.Parse<SampleOptions>(args);		
+		var options = CliParser.Parse<SampleOptions>(args);
 		// ...
 	}
 }
