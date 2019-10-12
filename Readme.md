@@ -17,9 +17,9 @@ class SampleOptions
 class Program 
 {
     static void Main(string[] args)
-	{
-		var options = CliParser.Parse<SampleOptions>(args);
-		// ...
-	}
+    {
+        var options = CliParser.Parse<SampleOptions>(args);
+        // ...
+    }
 }
 ```
