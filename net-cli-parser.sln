@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliParser", "CliParser\CliParser.csproj", "{73F6737F-FC09-4F2A-A962-B05E38F5A307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliParser", "CliParser\CliParser.csproj", "{73F6737F-FC09-4F2A-A962-B05E38F5A307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliParser.UnitTests", "CliParser.UnitTests\CliParser.UnitTests.csproj", "{23E1AEFF-8940-489A-A603-245C8344A62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliParser.UnitTests", "CliParser.UnitTests\CliParser.UnitTests.csproj", "{23E1AEFF-8940-489A-A603-245C8344A62D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D7BFF11-C3A6-4FF7-B7FD-CA944DE781D0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
