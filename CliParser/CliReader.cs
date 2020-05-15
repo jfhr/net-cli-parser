@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace CliParser
+namespace Jfhr.NetCliParser
 {
     /// <summary>
     /// Parses command line arguments into a container type.
     /// </summary>
-    public static class CliParser
+    public static class CliReader
     {
         private static readonly Type[] allowedTypes = new[]
         {

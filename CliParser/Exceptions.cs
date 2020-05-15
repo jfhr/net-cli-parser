@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CliParser
+namespace Jfhr.NetCliParser
 {
     /// <summary>
     /// Exception that is thrown when an internal error occurs whil parsing

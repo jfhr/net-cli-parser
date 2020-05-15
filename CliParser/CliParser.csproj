@@ -1,7 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>Jfhr.NetCliParser</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>jfhr</Authors>
+        <Company>jfhr</Company>
+        <Description>
+            Simple cross-platform command line parser for .NET applications.
+            See https://github.com/jfhr/net-cli-parser
+        </Description>
+        <AssemblyName>Jfhr.NetCliParser</AssemblyName>
+        <RootNamespace>Jfhr.NetCliParser</RootNamespace>
+    </PropertyGroup>
 
 </Project>

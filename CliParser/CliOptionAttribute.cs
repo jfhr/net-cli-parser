@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CliParser
+namespace Jfhr.NetCliParser
 {
     [AttributeUsage(AttributeTargets.Property, Inherited = false, AllowMultiple = false)]
     public sealed class CliOptionAttribute : Attribute

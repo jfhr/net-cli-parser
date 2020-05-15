@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace CliParser
+namespace Jfhr.NetCliParser
 {
     internal class CliOptionInternal
     {
